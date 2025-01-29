@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 body, html {
@@ -48,7 +49,6 @@ body, html {
     text-decoration: none;
     font-weight: 600;
     font-size: 14;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar ul li {
@@ -80,7 +80,6 @@ body, html {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -125,7 +124,6 @@ body, html {
 
 .section-playlist__content .text {
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .section-playlist__button {
@@ -134,7 +132,6 @@ body, html {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -178,7 +175,6 @@ footer{
     gap:20px;
     width: 100%;
     background: linear-gradient(to right,rgba(196, 62, 178, 0.8),rgba(9, 157, 216, 0.5));
-    font-family: "DM Sans", sans-serif;
 }
 
 .footer_content{
@@ -200,5 +196,5 @@ footer{
     padding: 10px;
     border-radius: 20px;
     font-weight: 800;
-    
+    z-index: 100;
 }
