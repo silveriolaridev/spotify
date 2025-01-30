@@ -138,11 +138,12 @@ body, html {
     border: 0px;
     width: 113px;
     margin-top: 12px;
+    transition: all 0.2s ease-in-out;
 }
 
 .sidebar .cookies {
     margin: 25px 20px;
-
+    margin-top: 50px;
 }
 
 .sidebar .cookies a {
@@ -167,16 +168,20 @@ body, html {
     width: 170px;
     padding: 8px;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
+
 .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:20px;
     width: 100%;
-    background: linear-gradient(to right,rgba(196, 62, 178, 0.8),rgba(9, 157, 216, 0.5));
-   
+    background: linear-gradient(to right, #ae2896, #509bf5);
 }
 
 .footer_content{
@@ -184,14 +189,20 @@ body, html {
     flex-direction: column;
     color: #fff;
     padding:20px;
-    gap:20px;
+    gap:10px;
+    
 }
 
 .footer_button{
     margin-right: 2%;
     display: flex;
     justify-content: flex-end;
+}
 
+.footer_button button:hover, .section-playlist__button:hover, .login:hover{
+    background-color: #b3b3b3;
+    transform: scale(1.025);
+   
 }
 
 .footer_button button{
@@ -199,5 +210,6 @@ body, html {
     border-radius: 80px;
     font-weight: 800;
     font-size: 16px;
+    transition: all 0.2s ease-in-out ;
     
 }
